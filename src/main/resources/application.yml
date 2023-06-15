@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/zack-apps
+    password: 1234
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: ZACK-APPS-TECHNICAL
+
+zack:
+  app:
+    jwtSecret: HP5CfKVoRuLGfIIU9iUAr2Flpp15ijtEJMRAHB4mYlsoRGhYHsiqR12qhGsoXuHI
+    jwtExpirationMs: 86400000
