@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    url: jdbc:mysql://localhost:3306/zack-apps
-    password: 1234
+    username: admin
+    url: jdbc:mysql://locushaunt-mysql.cts5zbx6unos.ap-south-1.rds.amazonaws.com:3306/zack-apps
+    password: 12345678
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
